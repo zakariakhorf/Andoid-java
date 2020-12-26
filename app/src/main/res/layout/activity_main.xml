@@ -48,7 +48,7 @@
         android:shadowColor="@color/cardview_light_background"
         android:text="Buy"
         android:textColor="@color/cardview_light_background"
-        android:textScaleX=""
+        android:textScaleX="1.2"
         app:layout_constraintBottom_toTopOf="@+id/textViews"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
