@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="buy">Buy</string>
+    <string name="info">Contacts : Phone: 800-883-8895 Email: powerup@gamestop.com </string>
+    <string name="moreinfo">About Gamestop : GameStop is a digital-first omni-channel retailer, offering games and entertainment products in its over 5,000 stores and comprehensive
+e-Commerce properties across 10 countries.</string>
 </resources>

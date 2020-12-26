@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -46,7 +50,7 @@
         android:layout_marginBottom="48dp"
         android:backgroundTint="@color/black"
         android:shadowColor="@color/cardview_light_background"
-        android:text="Buy"
+        android:text="@string/buy"
         android:textColor="@color/cardview_light_background"
         android:textScaleX="1.2"
         app:layout_constraintBottom_toTopOf="@+id/textViews"
@@ -62,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:layout_marginBottom="28dp"
-        android:text="Contacts : Phone: 800-883-8895 Email: powerup@gamestop.com "
+        android:text="@string/info"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView"
@@ -78,8 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="About Gamestop : GameStop is a digital-first omni-channel retailer, offering games and entertainment products in its over 5,000 stores and comprehensive
-e-Commerce properties across 10 countries."
+        android:text="@string/moreinfo"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,3 +91,4 @@ e-Commerce properties across 10 countries."
         app:layout_constraintTop_toBottomOf="@+id/textViews" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
